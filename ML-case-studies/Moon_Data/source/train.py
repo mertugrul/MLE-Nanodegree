@@ -164,7 +164,7 @@ if __name__ == '__main__':
     ## TODO:  Build the model by passing in the input params
     # To get params from the parser, call args.argument_name, ex. args.epochs or ards.hidden_dim
     # Don't forget to move your model .to(device) to move to GPU , if appropriate
-    model = SimpleNet(args.input_dim, args.hidden_dim, args.output_dim).to_device()
+    model = SimpleNet(args.input_dim, args.hidden_dim, args.output_dim).to(device)
     
     # Given: save the parameters used to construct the model
     save_model_params(model, args.model_dir)
