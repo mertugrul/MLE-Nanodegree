@@ -25,8 +25,7 @@ Aa pretrained VGG16 model is used as the base, and it is fintuned on the dog-ima
 ## Evaluation
 The Model 1 (Dog breed classifier from scratch) yielded 22% accuracy on the test set. On the other hand, Model 2 (Dog breed classifier using transfer learning) performed 82% accuracy on the test set. Two example outputs of the Model 2 are shown below:
 
-![alternativetext](readme_images/dog1.png)
-![alternativetext](readme_images/human1.png)
+![alternativetext](readme_images/dog1.png) ![alternativetext](readme_images/human1.png)
 
 
 ## Requirements
